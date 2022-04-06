@@ -1,8 +1,8 @@
-resource "aws_vpc" "ANIME-vpc" {
+resource "aws_vpc" "anime-vpc" {
 cidr_block = "16.16.0.0/16"
 instance_tenancy = "default"
 tags = {
-Name="ANIME-vpc"
+Name="anime-vpc"
 }
 }
 
